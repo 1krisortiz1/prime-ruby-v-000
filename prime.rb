@@ -1,7 +1,7 @@
 def prime?(i)
-  if i.odd? <= 1
+  if i.odd <= 1
     true
-elsif i.even?
+elsif i.even
   false
 end
 end
