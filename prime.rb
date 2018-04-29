@@ -1,5 +1,5 @@
 def prime?(i)
-  if i <= 1
+  if i.odd? <= 1
     true
 elsif i.even?
   false
