@@ -1,7 +1,8 @@
 def prime?(i)
   if i <= 1
     false
-elsif i.even?
+else
+  i.even?
   true
 end
 end
