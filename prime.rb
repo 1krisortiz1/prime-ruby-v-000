@@ -1,7 +1,7 @@
 def prime?(i)
   if i <= 1
-    false
+    true
 elsif i.even?
-  true
+  false
 end
 end
